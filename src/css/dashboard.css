@@ -24,28 +24,3 @@
 main h1 {
     text-align: center;
 }
-
-/* PK4 Ü3 */
-header p {
-    text-shadow: 1px 1px 2px black;
-    letter-spacing: 0.2em;
-    font-size: 2em;
-}
-
-/* PK5 Ü5 A2 */
-header p, header img {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-/* PK5 Ü5 A3 */
-footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
-header {
-    margin-bottom: 100px;
-}
