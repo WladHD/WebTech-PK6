@@ -1,0 +1,30 @@
+.vertical-box, .horizontal-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vertical-box {
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.horizontal-box {
+    flex-direction: row;
+}
+
+aside {
+    flex: 0 0 25%;
+}
+
+main {
+    flex: 0 0 65%;
+}
+
+.index-main .vertical-box div, .booking-main .vertical-box div {
+    width: 90%;
+}
+
+.horizontal-box {
+    align-items: flex-start;
+}
